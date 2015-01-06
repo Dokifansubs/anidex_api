@@ -1,0 +1,28 @@
+{
+	"name": "anidex_api",
+	"version": "0.0.1",
+	"description": "AniDex API",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/DokiFansubs/anidex_api.git"
+	},
+	"bugs": {
+		"url": "https://github.com/DokiFansubs/anidex_api/issues"
+	},
+	"author": {
+		"name": "Orillion",
+		"email": "orillion.lightning@gmail.com"
+	},
+	"main": "./app",
+	"dependencies": {
+		"express":	"^4.10.7",
+		"mysql":	"^2.5.4"
+	},
+	"devDependencies": {
+	},
+	"scripts": {
+		"prestart": "npm install",
+		"start": "node server.js"
+	},
+	"engines": { "node": ">= 0.4.0" }
+}
