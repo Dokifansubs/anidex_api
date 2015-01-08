@@ -28,3 +28,4 @@ node_modules
 .lock-wscript
 conf/*.json
 !conf/*example.json
+*.mwb.bak
